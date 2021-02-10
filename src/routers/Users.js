@@ -86,7 +86,7 @@ router.get('/me', auth, async (req, res) => {
 })
 
 // admin getting total amount of users
-router.get('/get-all users', auth, async(req, res)=>{
+router.get('/get-all-users', auth, async(req, res)=>{
     await userCount('admin', res)
 })
 
